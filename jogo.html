@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Senha - Bulls and Cows</h1>
+        <nav>
+            <a href="index.html">Voltar para o currículo</a>
+        </nav>
+    </header>
+    <main>
+        <div class="game-container">
+            <p>Adivinhe o número secreto de 4 dígitos únicos!</p>
+            <input type="text" id="guessInput" placeholder="Digite sua tentativa" maxlength="4" />
+            <button id="submitGuess">Enviar tentativa</button>
+            <button id="revealCode">Revelar combinação</button>
+            
+            <h3>Tentativas anteriores:</h3>
+            <ul id="guessList"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
